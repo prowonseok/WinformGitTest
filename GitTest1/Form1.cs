@@ -33,9 +33,15 @@ namespace GitTest1
             this.label1.Text = "Test3";
         }
 
+<<<<<<< HEAD
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("checkedBox");
+=======
+        private void checkBox1_Click(object sender, EventArgs e)
+        {
+            this.label1.Text = "체크박스";
+>>>>>>> branchEx1
         }
     }
 }
