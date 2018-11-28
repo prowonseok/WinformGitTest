@@ -32,5 +32,10 @@ namespace GitTest1
 
             this.label1.Text = "Test3";
         }
+
+        private void checkBox1_Click(object sender, EventArgs e)
+        {
+            this.label1.Text = "체크박스";
+        }
     }
 }
